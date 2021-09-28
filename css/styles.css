@@ -9,3 +9,11 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+
+.bgMainPage{
+ background-image: url("/img/wallpaper.jpg");
+ background-color: #cccccc;
+ color:white;
+ background-position: center;
+ background-size: auto;
+}
