@@ -15,5 +15,7 @@ main>.container {
  background-color: #cccccc;
  color:white;
  background-position: center;
- background-size: auto;
+ background-size: cover;
+ 
+ 
 }
