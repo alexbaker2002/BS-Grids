@@ -2,6 +2,8 @@
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
+    height: 100%;
+    overflow: hidden;
 }
 .sticky-nav {
     position: fixed;
