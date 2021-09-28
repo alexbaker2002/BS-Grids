@@ -3,74 +3,80 @@
 
 
 main>.container {
-    padding: 60px 15px 0;
-    margin-bottom: 5rem;
-    height: 100%;
-    overflow: hidden;
+  padding: 60px 15px 0;
+  margin-bottom: 5rem;
+  height: 100%;
+
 }
+
 .sticky-nav {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
 }
 
-.navbar-brand  {
-    font-family: 'Permanent Marker', cursive !important;
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive !important;
 }
 
-.navbar-collapse  {
-    font-family: 'Play', sans-serif;
+.navbar-collapse {
+  font-family: 'Play', sans-serif;
 }
+
 .navbar-collapse .nav-item :hover {
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 
-.bgMainPage{
- background-image: url("/img/wallpaper.jpg");
- background-color: black;
- background-repeat:none;
- background-position: center;
- background-size: cover;
- background-attachment: fixed;
+.bgMainPage {
+  background-image: url("/img/wallpaper.jpg");
+  background-color: black;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#heroImage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-    padding-top: 2em;
-  
+#heroImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding-top: 2em;
+
 }
 
 .glow {
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
 
-  .underHero{
-    padding-top: 1em;
-    font-family:  modesto-open-shadow, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
+}
+
+.underHero {
+  padding-top: 1em;
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+.minheight {
+  min-height: 80vh;
+}
