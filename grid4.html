@@ -76,8 +76,9 @@
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted">Copyright &copy;&nbsp;<script>document.write(new Date().getFullYear())</script> Alex Baker</span>
-        </div>
+            <span class="text-muted" id="Copyright"><section id="year"></section><script>
+                document.getElementById("Copyright").innerHTML = `Copyright &copy;&nbsp;${new Date().getFullYear()} Alex Baker`
+            </script></span> </div>
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">

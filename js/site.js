@@ -1,3 +1,3 @@
 function switchLocationOfDiv(){
-    
+    alert("Cicked")
 }
