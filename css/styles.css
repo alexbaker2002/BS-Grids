@@ -6,6 +6,12 @@ main>.container {
     height: 100%;
 }
 
+main>.container- fluid {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+   
+}
+
 .sticky-nav {
     position: fixed;
     left: 0;
