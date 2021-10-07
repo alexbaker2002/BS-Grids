@@ -1,3 +1,3 @@
 function Click(){
-    alert("Nothing to Read Here Yet!")
+    alert("Thanks for the click!")
 }
